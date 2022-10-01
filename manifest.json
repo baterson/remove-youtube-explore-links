@@ -1,0 +1,13 @@
+{
+    "name": "Remove youtube explore links",
+    "description": "Removes youtube explore links from the sidebar, to stop you from clicking it every time you get bored :)",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["*://*/*"],
+          "include_globs": ["*://*.youtube.*/*"],
+          "js": ["content.js"]
+        }
+      ]
+  }
