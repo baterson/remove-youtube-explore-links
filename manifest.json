@@ -9,5 +9,11 @@
           "include_globs": ["*://*.youtube.*/*"],
           "js": ["content.js"]
         }
-      ]
-  }
+    ],
+    "icons": {
+      "16": "/icons/img-16.png",
+      "32": "/icons/img-32.png",
+      "48": "/icons/img-48.png",
+      "128": "/icons/img-128.png"
+    }
+}
